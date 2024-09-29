@@ -26,7 +26,7 @@ namespace Simple_Hospital_Management_System
             Console.WriteLine("-----------------------------------------------------");
             doctor2.DisplayInfo();
             // Test Case 2: Assign rooms to patients
-            Console.WriteLine("\n===== Test Case 2: Room Assignment =====");
+            Console.WriteLine("\n===== Test Case 2: Room Assignment ======");
             Room room1 = new Room(202, RoomType.ICU);
             Room room2 = new Room(203, RoomType.General);
             patient1.AssignRoom(room1);
